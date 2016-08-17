@@ -70,14 +70,14 @@ h2:before {
 }
 
 .cover .overview.learn h2:before {
-    content: url('/images/icons/will-learn.png');
+    content: url('../images/icons/will-learn.png');
     -webkit-border-radius: 50px;
     width: 80px;
     height: 80px;
 }
 
 .cover .overview.do h2:before {
-    content: url('/images/icons/will-do.png');
+    content: url('../images/icons/will-do.png');
     -webkit-border-radius: 50px;
     width: 80px;
     height: 80px;
