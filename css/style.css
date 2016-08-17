@@ -518,7 +518,7 @@ footer.footer a.logo {
 }
 
 footer.footer a.cc {
-    background: url('/images/naasc-jet-logo.png') no-repeat;
+    background: url('../images/naasc-jet-logo.png') no-repeat;
     width: 88px;
     margin-right: 10px;
     height: 48px;
