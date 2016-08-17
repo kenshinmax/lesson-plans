@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en-EN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Oracle JET | Learning Resources</title>
+    <meta name="description" content="In this resource you will work with Oracle JET and create a form." />
+    
+    <link rel="stylesheet" href="/css/style.css?1465914753" />
+
+   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900">
+
+</head>
+
+<body class="learning worksheet learn worksheet ">
+    <div class="container">
+        <header class="header">
+            <a href="/resources/" class="heading" title="Back to raspberrypi.org">Raspberry Pi Learning Resources</a>
+        </header>
+
+        <nav class="nav breadcrumbs">
+            <ul>
+                <li><a href='/learning/turtley-amazing/'>Turtley Amazing</a></li><li>Worksheet</li>            </ul>
+        </nav>
+
+        <nav class="nav resource-categories">
+            <ul>
+                <li class="help"><a href="/help/">Help</a></li>
+                <li class="teach"><a href="/resources/teach/">Teach</a></li>
+                <li class="learn"><a href="/resources/learn/">Learn</a></li>
+                <li class="make"><a href="/resources/make/">Make</a></li>
+            </ul>
+        </nav>
+
+        <div class="main">
+
+<article class="content">
+
+<h1>Forms</h1>
+<p>
+ Most forms are made up of several input components, provide visual cues for users when entering information and show how much progress they have made for form completion.
+</p>
+
+<h2>Form layouts</h2>
+<p>Have a look at the form below. Does this look like a complete form? </p>
+<p><img src="/images/oj-checkout-form.png" alt="" /></p>
+<p>This checkout form has fields for the users name and address, but it also has an area to enter credit card details.</p>
+<h2>Form - Stacked layout</h2>
+<p>One way to have a great look and feel for you form is to use the Form layout called - Stacked.  It basically makes sure that the input components </p>
+<iframe src="https://trinket.io/embed/python/0d2e8c2dac" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<ol>
+<li>Click on <strong>Run</strong> to see the code working.</li>
+<li>Now try changing the number in the line <code>turtle.forward(100)</code>, click on <strong>Run</strong> again and see what happens.</li>
+</ol>
+<h2>Turning</h2>
+<p>You've used code to draw a line. Good work! Now let's try making the turtle turn around. To do this you need to instruct the turtle not only to move forward, but also to turn right or left. </p>
+<iframe src="https://trinket.io/embed/python/88c91b8dfb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<ol>
+<li>
+<p>What do you think will happen in the code above? Click on <strong>Run</strong> to see if you were right. </p>
+<p><code>turtle.right(90)</code> turns the cursor 90 degrees right. You can also turn left with <code>turtle.left(90)</code>. To change the amount that the cursor turns, simply change the value of degrees. </p>
+</li>
+<li>Complete the square shape you've started by adding the next lines of code and press <strong>Run</strong>. Keep trying until you get it right. </li>
+</ol>
+<h3>Challenge</h3>
+<p>Try to complete each of the challenges below.</p>
+<ol>
+<li>Draw a rectangle: two of the four sides need to be longer.</li>
+<li>Draw a triangle: how many degrees do you need to turn?</li>
+<li>Draw a cross: backwards and forwards work well together.</li>
+<li>Draw a circle: what happens if you turn lots? </li>
+</ol>
+<h2>Changing colours</h2>
+<p>The default colour for the pen used by the turtle cursor is black, and the default background colour is white. You can change the colours to make your shapes look even better.</p>
+<ol>
+<li>
+<p>Look at the code below. It contains three variables called <code>R</code>, <code>G</code>, and <code>B</code>.</p>
+<iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<p>Variables are a way of storing a value and giving it a name. For instance, there is a variable name <code>R</code> with a value of <code>255</code>. </p>
+</li>
+<li>Run the code and see what happens. </li>
+<li>
+<p>Try changing the values of the three variables, and see what happens. (Note: the maximum value is 255, and after this there will be no effect.) What do you think R, G, and B represent?</p>
+<p>You can change the value of your variables either by setting them to a new value, or by increasing and decreasing them.</p>
+</li>
+<li>
+<p>You can change the colour of the turtle as well. Run the code below to see what happens:</p>
+<iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</li>
+</ol>
+<h3>Challenge</h3>
+<p>Try to complete each of the challenges below.</p>
+<ol>
+<li>Complete the triangle above with a colour of your choice.</li>
+<li>Draw a square with sides which are four different shades of red.</li>
+<li>Draw a cross made of four different colours.</li>
+</ol>
+<h2>Repetition</h2>
+<p>Repeating lines of code is one of the fastest ways to get something done. Quite often in computer science, it makes more sense to repeat lines of code rather than write out another set of instructions. For example, the square you created earlier uses the same two instructions four times. Rather than writing them out four times, you could write them out once but add an instruction to repeat them.</p>
+<p>In Python there are two types of loops that you are likely to use: a <code>while</code> loop and a <code>for</code> loop. If you want a section of code to repeat forever, or until a condition is set, then a <code>while</code> loop might be best. If you want to loop for a set number of times, then a <code>for</code> loop is preferable. </p>
+<ol>
+<li>
+<p>Here, we have used a <code>while True</code> loop. This means that the code inside the loop (i.e. the code which is indented) will repeat forever. You can try it in Trinket to see what it does, but remember it will loop <strong>forever</strong>!</p>
+<pre><code class="language-python">from turtle import Turtle, Screen
+
+turtle = Turtle()
+
+while True:
+  turtle.forward(1)
+  turtle.right(1)</code></pre>
+<p>This type of loop is not going to be very useful for drawing shapes with Turtle where you want to be more precise. </p>
+</li>
+<li>
+<p>In this example, a <code>for</code> loop has been used. Press <strong>Run</strong> to see what happens.   </p>
+<iframe src="https://trinket.io/embed/python/b89b6f5457" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<p>A <code>for</code> loop repeats instructions a set number of times, in this case 8 times. A <code>for</code> loop has an associated variable (called <code>i</code> here). In this example, <code>i</code> starts from <code>0</code> and increases by <code>1</code> each time. Let's apply this to the code to draw a square:</p>
+<pre><code class="language-python">from turtle import Turtle, Screen
+
+turtle = Turtle()
+
+for i in range(4):
+  turtle.forward(100)
+  turtle.right(90)</code></pre>
+</li>
+<li>
+<p>Copy and paste this code into the Trinket editor above and run it. The turtle has been asked to repeat two instructions four times to make a square.</p>
+</li>
+<li>
+<p>Once you have created one shape using a loop, you can repeat the shape again and again by putting it inside another loop. This is a great way to draw spirals. Adapt your code by making it look like this:</p>
+<pre><code class="language-python">from turtle import Turtle, Screen
+
+turtle = Turtle()
+
+for i in range(30):
+  for i in range(4):
+      turtle.forward(100)
+      turtle.right(90)
+  turtle.right(25)</code></pre>
+<p>A spiral can be made by turning a small degree and then moving forward a small amount. The section of code for making a square is inside another <code>for</code> loop that repeats it 30 times, each time turning the cursor 25 degress to make a pleasing spiral shape.  </p>
+</li>
+</ol>
+<h3>Challenge</h3>
+<p>Try to complete each of the challenges below.</p>
+<ol>
+<li>
+<p>Can you alter the <code>for</code> loop so that it draws a more interesting spiral using one of the shapes you made earlier, like a triangle or circle?</p>
+</li>
+<li>Adding a few extra lines where you alter the variables <code>R</code>, <code>G</code>, and <code>B</code> would allow you to make a multicoloured spiral. Have a go at creating a rainbow spiral.</li>
+</ol>
+<h2>What next?</h2>
+<ul>
+<li>Learn how to use <code>functions</code> to <a href="https://www.raspberrypi.org/learning/turtle-snowflakes/">draw snowflakes</a> using Turtle. </li>
+<li>Create interactive stories using <code>lists</code> in Python with the <a href="https://www.raspberrypi.org/learning/storytime/">Storytime</a> resource. </li>
+<li>Take your first steps <a href="https://www.raspberrypi.org/learning/getting-started-with-gpio-zero">controlling physical objects</a> with Python and a Raspberry Pi. </li>
+<li>Become a Python turtle expert by continuing with the <a href="../worksheet2.md">advanced page of Turtley Amazing</a>!</li>
+</ul>
+</article>
+
+            <div style="clear:both;"></div>
+
+            <footer class="footer">
+                <a href="/creative-commons/" class="logo cc">Creative Commons</a>
+                <small>
+                    <p>This learning resource is provided for free by the <a href="/">Raspberry Pi Foundation</a> under a <a href="/creative-commons/">Creative Commons</a> licence.</p>
+                    <p>Find more at <a href="/resources/">raspberrypi.org/resources</a> and <a href="https://github.com/raspberrypilearning">github.com/raspberrypilearning</a>.</p>
+                </small>
+                <a href="https://github.com/raspberrypilearning/turtley-amazing/" class="logo gh" title="View and edit this resource on GitHub">View and edit this resource on GitHub</a>
+            </footer>
+
+        </div>
+    </div>
+</body>
+</html>
