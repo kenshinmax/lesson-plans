@@ -492,9 +492,9 @@ ul.hardware-items li .detail {
 }
 
 footer.footer {
-    margin: 80px 50px 0;
+    margin: 40px 50px 0;
     padding: 0 0 20px;
-    height: 30px;
+   
 }
 
 footer.footer p {
@@ -512,15 +512,16 @@ footer.footer small {
 
 footer.footer a.logo {
     height: 32px;
-    float: left;
+    /*float: left;*/
     display: block;
     text-indent: -9999px;
 }
 
 footer.footer a.cc {
-    background: url('images/creative-commons.png');
+    background: url('/images/naasc-jet-logo.png') no-repeat;
     width: 88px;
     margin-right: 10px;
+    height: 48px;
 }
 
 footer.footer a.gh {
