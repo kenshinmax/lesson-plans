@@ -72,7 +72,7 @@ h2:before {
 .cover .overview.learn h2:before {
     content: url('../images/icons/will-learn.png');
     -webkit-border-radius: 50px;
-    width: 80px;
+    width: 78px;
     height: 80px;
 }
 
