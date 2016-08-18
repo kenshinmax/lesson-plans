@@ -659,11 +659,11 @@ footer.footer a:hover {
     }
 
     .cover .overview.learn h2:before {
-        content: url('images/icons/small/learn.png');
+        content: url('../images/icons/small/will-learn.png');
     }
 
     .cover .overview.do h2:before {
-        content: url('images/icons/small/do.png');
+        content: url('../images/icons/small/will-do.png');
     }
 
     .cover .overview.study h2:before {
